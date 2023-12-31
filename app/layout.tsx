@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
-import { Open_Sans } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
+import { ClerkProvider } from "@clerk/nextjs";
 
-const openSans = Open_Sans({
+const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
-  variable: "--font-openSans",
+  variable: "--font-poppins",
 });
 
 export const metadata: Metadata = {
-  title: "Schedular App",
-  description: "Schedular app is platform for event management.",
+  title: "Scheduler App",
+  description: "Scheduler app is platform for event management.",
   icons: {
     icon: "./assets/images/logo.svg",
   },
@@ -22,8 +23,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={openSans.variable}>{children}</body>
-    </html>
+    <ClerkProvider>
+      <html lang="en">
+        <body className={poppins.variable}>{children}</body>
+      </html>
+    </ClerkProvider>
   );
 }
