@@ -9,7 +9,7 @@ export default function Home() {
         <div className="wrapper grid grid-cols-1 gap-5 md:grid-cols-2 2xl:gap-0">
           <div className="flex flex-col justfiy-center gap-8">
             <h1 className="h1-bold">
-              Unite, delight, make memories take flight, with{" "}
+              Unite, delight, memories: with{" "}
               <span className="text-primary-500">Scheduler</span>, events done
               right!
             </h1>
