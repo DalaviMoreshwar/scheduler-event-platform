@@ -20,9 +20,9 @@ module.exports = withUt({
     extend: {
       colors: {
         primary: {
-          500: '#624CF5',
+          500: '#0171d2',
           50: ' #F6F8FD',
-          DEFAULT: '#624CF5',
+          DEFAULT: '#0171e3',
           foreground: 'hsl(var(--primary-foreground))',
         },
         coral: {
@@ -35,7 +35,7 @@ module.exports = withUt({
           400: '#AFAFAF', // Disabled - color name in figma
           50: '#F6F6F6', // White Grey - color name in figma
         },
-        black: '#000000',
+        black: '#4b556b',
         white: '#FFFFFF',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
