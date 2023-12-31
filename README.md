@@ -1,11 +1,11 @@
-<div style="font-size: 11px; display:grid; justify-items: flex-end; margin: 10px auto;">
+<header align="center">
     <div>
         Start date: 30/12/2023
     </div>
     <div>
         Finish date: 00/00/2024
     </div>
-</div>
+</header>
 
 ---
 
