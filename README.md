@@ -27,7 +27,10 @@ This is an event application built with Next.js 14, a full-stack platform that m
 ## Findings
 
 ---
+<div align="center">
 
 | Resource    |  Start Date | Finish Date | 
 |--|--|--|
 |[NextJs 14 MERN](https://youtu.be/zgGhzuBZOQg?list=PL6QREj8te1P7gixBDSU8JLvQndTEEX3c3)| 30/12/2023 |--  |
+
+</div>
