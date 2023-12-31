@@ -1,16 +1,3 @@
-<header align="center">
-    <div>
-        Start date: 30/12/2023
-    </div>
-    <div>
-        Finish date: 00/00/2024
-    </div>
-</header>
-
----
-
-<br />
-
 # 📆 Scheduler App
 
 I started this project to learn about MERN stack (MongoDB, Express.js, React, Node.js) operations. Throughout the process, I've gained insights into various concepts and operations. Even though the project may appear straightforward, it involves a lot of valuable learning experiences.
@@ -39,8 +26,8 @@ This is an event application built with Next.js 14, a full-stack platform that m
 
 ## Findings
 
-|             |                                                                                        |
-| ----------- | -------------------------------------------------------------------------------------- |
-| Resource    | [NextJs 14 MERN](https://youtu.be/zgGhzuBZOQg?list=PL6QREj8te1P7gixBDSU8JLvQndTEEX3c3) |
-| Start Date  | 30/12/2023                                                                             |
-| Finish Date | --                                                                                     |
+---
+
+| Resource    |  Start Date | Finish Date | 
+|--|--|--|
+|[NextJs 14 MERN](https://youtu.be/zgGhzuBZOQg?list=PL6QREj8te1P7gixBDSU8JLvQndTEEX3c3)| 30/12/2023 |--  |
