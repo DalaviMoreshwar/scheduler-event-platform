@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <div className="flex items-center gap-4">
       <Image src="/assets/images/logo.svg" alt="logo" width={40} height={100} />{" "}
-      <h1 className="font-bold text-lg">Scheduler</h1>
+      <h4 className="font-bold text-lg">Scheduler</h4>
     </div>
   );
 };
