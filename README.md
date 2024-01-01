@@ -8,8 +8,6 @@ This is an event application built with Next.js 14, a full-stack platform that m
 
 ### 🧱 Tech Stack
 
-s
-
 <p align="center" width="100%" style=" background-size: cover;">
     <img width="25%" src="./public/tech-icons/nextjs-1.png" title="Next Js" alt="logo"/>
     <img width="25%" src="./public/tech-icons/typescript-1.png" title="TypeScript" alt="logo"/>
@@ -21,16 +19,6 @@ s
     <img width="25%" src="./public/tech-icons/stripe.png" title="Stripe" alt="logo"/>
     <img width="25%" src="./public/tech-icons/zod.png" title="Zod" alt="logo"/>
 </p>
-
-- Next Js 14
-- TypeScript
-- Tailwind CSS
-- Shadcn UI
-- Clerk
-- UploadThing
-- React Hook Form
-- Stripe
-- Zod
 
 ### Quick Start
 
