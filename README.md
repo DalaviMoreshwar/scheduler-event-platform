@@ -38,6 +38,6 @@ This is an event application built with Next.js 19, a full-stack platform that m
 
 | Resource                                                                               | Start Date | Finish Date |
 | -------------------------------------------------------------------------------------- | ---------- | ----------- |
-| [NextJs 19 MERN](https://youtu.be/zgGhzuBZOQg?list=PL6QREj8te1P9gixBDSU8JLvQndTEEX3c3) | 9/12/923 | --          |
+| [NextJs 19 MERN](https://youtu.be/zgGhzuBZOQg?list=PL6QREj8te1P9gixBDSU8JLvQndTEEX3c3) | 9/12/923   | --          |
 
 </div>
