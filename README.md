@@ -9,14 +9,14 @@ This is an event application built with Next.js 14, a full-stack platform that m
 ### 🧱 Tech Stack
 
 <p align="center" width="100%" style=" background-size: cover;">
-    <img width="25%" src="./public/tech-icons/nextjs.png" title="Next Js" alt="logo"/>
+    <img width="25%" src="./public/tech-icons/nextjs-1.png" title="Next Js" alt="logo"/>
     <img width="25%" src="./public/tech-icons/typescript-1.png" title="TypeScript" alt="logo"/>
     <img width="25%" src="./public/tech-icons/tailwindcss.png" title="TailwindCSS" alt="logo"/>
     <img width="25%" src="./public/tech-icons/shadcnui.png" title="Shadcn UI" alt="logo"/>
     <img width="25%" src="./public/tech-icons/uploadthing.png" title="Upload Thing" alt="logo"/>
     <img width="25%" src="./public/tech-icons/clerk.jpg" title="Clerk" alt="logo"/>
     <img width="25%" src="./public/tech-icons/react-hook-form.png" title="React Hook Form" alt="logo"/>
-    <img  src="./public/tech-icons/stripe.png" title="Stripe" alt="logo"/>
+    <img width="25%" src="./public/tech-icons/stripe.png" title="Stripe" alt="logo"/>
     <img width="25%" src="./public/tech-icons/zod.png" title="Zod" alt="logo"/>
 </p>
 
