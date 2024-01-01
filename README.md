@@ -8,6 +8,8 @@ This is an event application built with Next.js 14, a full-stack platform that m
 
 ### 🧱 Tech Stack
 
+ss
+
 <p align="center" width="100%" style="background-size: cover;">
     <div align="center" width="100%" >
         <img width="25%" src="./public/tech-icons/nextjs.png" alt="logo"/>
