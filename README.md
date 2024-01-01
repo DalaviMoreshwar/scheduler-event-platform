@@ -9,18 +9,18 @@ This is an event application built with Next.js 14, a full-stack platform that m
 ### 🧱 Tech Stack
 
 ss
+| <img width="25%" src="./public/tech-icons/nextjs.png" alt="logo"/>| <img width="25%" src="./public/tech-icons/typescript-1.png" alt="logo"/>| <img width="25%" src="./public/tech-icons/tailwindcss.png" alt="logo"/>|
+|--|--|---|
+|<div>Next Js</div>|<div>TypeScript</div>|<div>Tailwind CSS</div>|
 
 <p align="center" width="100%" style="background-size: cover;">
     <div align="center" width="100%" >
-        <img width="25%" src="./public/tech-icons/nextjs.png" alt="logo"/>
         <div>Next Js</div>
     </div>
     <div align="center" width="100%" >
-        <img width="25%" src="./public/tech-icons/typescript-1.png" alt="logo"/>
         <div>TypeScript</div>
     </div>  
     <div align="center" width="100%" >
-      <img width="25%" src="./public/tech-icons/tailwindcss.png" alt="logo"/>
       <div>Tailwind CSS</div>
     </div> 
     <div align="center" width="100%" >
