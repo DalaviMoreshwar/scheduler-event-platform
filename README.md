@@ -8,45 +8,16 @@ This is an event application built with Next.js 14, a full-stack platform that m
 
 ### 🧱 Tech Stack
 
-ss
-| <img width="25%" src="./public/tech-icons/nextjs.png" alt="logo"/>| <img width="25%" src="./public/tech-icons/typescript-1.png" alt="logo"/>| <img width="25%" src="./public/tech-icons/tailwindcss.png" alt="logo"/>|
-|--|--|---|
-|<div>Next Js</div>|<div>TypeScript</div>|<div>Tailwind CSS</div>|
-
-<p align="center" width="100%" style="background-size: cover;">
-    <div align="center" width="100%" >
-        <div>Next Js</div>
-    </div>
-    <div align="center" width="100%" >
-        <div>TypeScript</div>
-    </div>  
-    <div align="center" width="100%" >
-      <div>Tailwind CSS</div>
-    </div> 
-    <div align="center" width="100%" >
-      <img width="25%" src="./public/tech-icons/shadcnui.png" alt="logo"/>
-      <div>Shadcn UI</div>
-    </div> 
-    <div align="center" width="100%" >
-      <img width="25%" src="./public/tech-icons/clerk.jpg" alt="logo"/>
-      <div>Clerk</div>
-    </div> 
-    <div align="center" width="100%" >
-      <img width="25%" src="./public/tech-icons/uploadthing.png" alt="logo"/>
-      <div>UploadThing</div>
-    </div> 
-    <div align="center" width="100%" >
-      <img width="25%" src="./public/tech-icons/react-hook-form.png" alt="logo"/>
-      <div>React Hook Form</div>
-    </div> 
-    <div align="center" width="100%" >
-      <img width="25%" src="./public/tech-icons/stripe.png" alt="logo"/>
-      <div>Stripe</div>
-    </div> 
-    <div align="center" width="100%" >
-      <img width="25%" src="./public/tech-icons/zod.png" alt="logo"/>  
-      <div>Zod</div>
-    </div>  
+<p align="center" width="100%" style=" background-size: cover;">
+    <img width="25%" src="./public/tech-icons/nextjs.png" title="Next Js" alt="logo"/>
+    <img width="25%" src="./public/tech-icons/typescript-1.png" title="TypeScript" alt="logo"/>
+    <img width="25%" src="./public/tech-icons/tailwindcss.png" title="TailwindCSS" alt="logo"/>
+    <img width="25%" src="./public/tech-icons/shadcnui.png" title="Shadcn UI" alt="logo"/>
+    <img width="25%" src="./public/tech-icons/uploadthing.png" title="Upload Thing" alt="logo"/>
+    <img width="25%" src="./public/tech-icons/clerk.jpg" title="Clerk" alt="logo"/>
+    <img width="25%" src="./public/tech-icons/react-hook-form.png" title="React Hook Form" alt="logo"/>
+    <img  src="./public/tech-icons/stripe.png" title="Stripe" alt="logo"/>
+    <img width="25%" src="./public/tech-icons/zod.png" title="Zod" alt="logo"/>
 </p>
 
 - Next Js 14
