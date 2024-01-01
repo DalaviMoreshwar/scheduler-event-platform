@@ -19,7 +19,7 @@ export default function Home() {
               community.
             </p>
             <Button size="lg" asChild className="button w-full sm:w-fit">
-              <Link href="#events">Explre now</Link>
+              <Link href="#events">Explore here</Link>
             </Button>
           </div>
 
