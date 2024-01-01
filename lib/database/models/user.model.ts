@@ -6,7 +6,7 @@ const UserSchema = new Schema({
     username: { type: String, required: true, unique: true },
     firstName: { type: String, required: true },
     lastName: { type: String, required: true },
-    photo: {type: String, required: true}
+    photo: { type: String, required: true },
 })
 
 // Create a Mongoose model for interacting with user data
