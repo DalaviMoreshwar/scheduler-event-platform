@@ -79,9 +79,18 @@ NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
 
 Open `http://localhost:3000` in your browser to view the project.
 
-### Features
-
 ## Learnings
+
+- User authentiation with Clerk
+  - [Clerk](https://clerk.com/) configuration and middleware for routes to make protected routes.
+- Webhook
+  - Using [WebHook](https://hookdeck.com/webhooks/guides/what-are-webhooks-how-they-work) integrate and configure of clerk `User` details into [MongoDB atlas](https://www.mongodb.com/atlas/database) by capturing `User.create`, `User.update`, `User.delete` events.
+- MongoDB
+  - MongoDB database atlas configuration.
+  - Database connection and standard practices.
+  - Schemas and API calls.
+
+### Features
 
 ## Challenges
 
