@@ -81,6 +81,7 @@ Open `http://localhost:3000` in your browser to view the project.
 
 ## Learnings
 
+- Shadcn UI component configurations on UI and TailwindCSS megerging
 - User authentiation with Clerk
   - [Clerk](https://clerk.com/) configuration and middleware for routes to make protected routes.
 - Webhook
