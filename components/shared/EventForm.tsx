@@ -3,6 +3,8 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 import { Button } from "@/components/ui/button";
 import {
   Form,
@@ -20,6 +22,7 @@ import Dropdown from "./Dropdown";
 import { Textarea } from "../ui/textarea";
 import { useState } from "react";
 import FileUploader from "./FileUploader";
+import { CalendarDaysIcon, MapPinIcon } from "lucide-react";
 
 type EventFormProps = {
   userId: string;
@@ -28,6 +31,7 @@ type EventFormProps = {
 
 const EventForm = ({ userId, type }: EventFormProps) => {
   const [files, setFiles] = useState<File[]>([]);
+  const [startDate, setStartDate] = useState(new Date());
   const initialValues = eventDefaultValues;
 
   // 1. Define your form.
@@ -111,6 +115,82 @@ const EventForm = ({ userId, type }: EventFormProps) => {
                     imageUrl={field.value}
                     setFiles={setFiles}
                   />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+        </div>
+
+        <div className="flex flex-col gap-5 md:flex-row">
+          <FormField
+            control={form.control}
+            name="location"
+            render={({ field }) => (
+              <FormItem className="w-full ">
+                <FormControl>
+                  <div className="flex-center h-[55px] w-full overflow-hidden rounded-full bg-gray-50 px-5 py-2">
+                    <MapPinIcon />
+                    <Input
+                      placeholder="Event location or virtual"
+                      className="input-field"
+                      {...field}
+                    />
+                  </div>
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+        </div>
+
+        <div className="flex flex-col gap-5 md:flex-row">
+          <FormField
+            control={form.control}
+            name="startDateTime"
+            render={({ field }) => (
+              <FormItem className="w-full ">
+                <FormControl>
+                  <div className="flex-center h-[55px] w-full overflow-hidden rounded-full bg-gray-50 px-5 py-2">
+                    <CalendarDaysIcon />
+                    <p className="ml-3 whitespace-nowrap text text-grey-600">
+                      Start Date:
+                    </p>
+                    <DatePicker
+                      selected={field.value}
+                      onChange={(date: Date) => field.onChange(date)}
+                      showTimeSelect
+                      timeInputLabel="Time:"
+                      dateFormat="dd MMM, yyyy h:mm aa"
+                      wrapperClassName="datePicker"
+                    />
+                  </div>
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+
+          <FormField
+            control={form.control}
+            name="endDateTime"
+            render={({ field }) => (
+              <FormItem className="w-full ">
+                <FormControl>
+                  <div className="flex-center h-[55px] w-full overflow-hidden rounded-full bg-gray-50 px-5 py-2">
+                    <CalendarDaysIcon />
+                    <p className="ml-3 whitespace-nowrap text text-grey-600">
+                      End Date:
+                    </p>
+                    <DatePicker
+                      selected={field.value}
+                      onChange={(date: Date) => field.onChange(date)}
+                      showTimeSelect
+                      timeInputLabel="Time:"
+                      dateFormat="dd MMM, yyyy h:mm aa"
+                      wrapperClassName="datePicker"
+                    />
+                  </div>
                 </FormControl>
                 <FormMessage />
               </FormItem>
