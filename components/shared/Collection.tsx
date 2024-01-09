@@ -29,7 +29,7 @@ const Collection = ({
           <ul className="gird w-full grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:gap-10">
             {data.map((event) => {
               const hasOrderLink = collectionType === "Event_Organized";
-              const hidePrice = collectionType === "My_Ticket";
+              const hidePrice = collectionType === "My_Tickets";
 
               return (
                 <li className="flex justify-center" key={event._id}>
