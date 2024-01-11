@@ -1,11 +1,55 @@
+"use client";
+
 import { Trash2Icon } from "lucide-react";
-import React from "react";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
+import { useTransition } from "react";
+import { usePathname } from "next/navigation";
 
 const DeleteConfirmation = ({ eventId }: { eventId: string }) => {
+  const pathname = usePathname();
+  const [isPending, startTransition] = useTransition();
   return (
-    <div>
-      <Trash2Icon />
-    </div>
+    <AlertDialog>
+      <AlertDialogTrigger>
+        <Trash2Icon />
+      </AlertDialogTrigger>
+
+      <AlertDialogContent className="bg-white">
+        <AlertDialogHeader>
+          <AlertDialogTitle>
+            Are you absolutely sure to delete?
+          </AlertDialogTitle>
+          <AlertDialogDescription>
+            This action cannot be undone. This will permanently delete your
+            event and remove your data from our servers.
+          </AlertDialogDescription>
+        </AlertDialogHeader>
+
+        <AlertDialogFooter>
+          <AlertDialogCancel>Cancel</AlertDialogCancel>
+          <AlertDialogAction
+            onClick={() => {
+              startTransition(async () => {
+                console.log("Transition Delete process!");
+                // await deleteEvent({ eventId, path: pathname });
+              });
+            }}
+          >
+            {isPending ? "Deleteing..." : "Delete"}
+          </AlertDialogAction>
+        </AlertDialogFooter>
+      </AlertDialogContent>
+    </AlertDialog>
   );
 };
 
