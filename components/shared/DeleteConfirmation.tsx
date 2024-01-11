@@ -36,8 +36,9 @@ const DeleteConfirmation = ({ eventId }: { eventId: string }) => {
         </AlertDialogHeader>
 
         <AlertDialogFooter>
-          <AlertDialogCancel>Cancel</AlertDialogCancel>
+          <AlertDialogCancel className="button">Cancel</AlertDialogCancel>
           <AlertDialogAction
+            className="button"
             onClick={() => {
               startTransition(async () => {
                 // await deleteEvent({ eventId, path: pathname });
