@@ -40,7 +40,6 @@ const DeleteConfirmation = ({ eventId }: { eventId: string }) => {
           <AlertDialogAction
             onClick={() => {
               startTransition(async () => {
-                console.log("Transition Delete process!");
                 // await deleteEvent({ eventId, path: pathname });
               });
             }}
