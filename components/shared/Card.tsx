@@ -29,6 +29,7 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
           <Link href={`/events/${event._id}/update`}>
             <Edit2Icon />
           </Link>
+
           <DeleteConfirmation eventId={event._id} />
         </div>
       )}

@@ -1,14 +1,14 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
-import { CreateUserParams, UpdateUserParams } from "@/types";
+import { CreateUserParams, DeleteEventParams, UpdateUserParams } from "@/types";
 import { handleError } from "../utils";
 import { connectToDatabase } from "../database";
 import User from "../database/models/user.model";
 import Event from "../database/models/event.model";
 import Order from "../database/models/order.model";
 
-// Create
+// Create a ckerk user once logged in
 export async function createUser(user: CreateUserParams) {
   try {
     await connectToDatabase();
@@ -20,7 +20,7 @@ export async function createUser(user: CreateUserParams) {
   }
 }
 
-// Read
+// Read the clerk user information
 export async function getUserById(userId: string) {
   try {
     await connectToDatabase();
@@ -35,7 +35,7 @@ export async function getUserById(userId: string) {
   }
 }
 
-// Update
+// Update ckerk user
 export async function updateUser(clerkId: string, user: UpdateUserParams) {
   try {
     await connectToDatabase();
@@ -51,7 +51,7 @@ export async function updateUser(clerkId: string, user: UpdateUserParams) {
   }
 }
 
-// Delete
+// Delete a clerk user
 export async function deleteUser(clerkId: string) {
   try {
     await connectToDatabase();
@@ -81,6 +81,19 @@ export async function deleteUser(clerkId: string) {
     revalidatePath("/");
 
     return deletedUser ? JSON.parse(JSON.stringify(deletedUser)) : null;
+  } catch (error) {
+    handleError(error);
+  }
+}
+
+// Delete a event
+export async function deleteEvent({eventId, path}: DeleteEventParams) {
+  try {
+    await connectToDatabase();
+
+    const deletedEvent = await Event.findByIdAndDelete(eventId);
+
+    if(deletedEvent) revalidatePath(path);
   } catch (error) {
     handleError(error);
   }

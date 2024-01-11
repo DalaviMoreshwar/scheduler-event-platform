@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/alert-dialog";
 import { useTransition } from "react";
 import { usePathname } from "next/navigation";
+import { deleteEvent } from "@/lib/actions/user.actions";
 
 const DeleteConfirmation = ({ eventId }: { eventId: string }) => {
   const pathname = usePathname();
@@ -21,7 +22,7 @@ const DeleteConfirmation = ({ eventId }: { eventId: string }) => {
   return (
     <AlertDialog>
       <AlertDialogTrigger>
-        <Trash2Icon />
+        <Trash2Icon color="red" />
       </AlertDialogTrigger>
 
       <AlertDialogContent className="bg-white">
@@ -41,7 +42,7 @@ const DeleteConfirmation = ({ eventId }: { eventId: string }) => {
             className="button"
             onClick={() => {
               startTransition(async () => {
-                // await deleteEvent({ eventId, path: pathname });
+                await deleteEvent({ eventId, path: pathname });
               });
             }}
           >
