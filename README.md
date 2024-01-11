@@ -92,6 +92,9 @@ Open `http://localhost:3000` in your browser to view the project.
   - Database connection and standard practices.
   - Schemas and API calls.
 - Undamdled Runtime Error: [next-image-unconfigured-host](https://nextjs.org/docs/messages/next-image-unconfigured-host)
+-
+- What is `revalidatePath()`
+- What is `useTransition()`
 
 ### Features
 
