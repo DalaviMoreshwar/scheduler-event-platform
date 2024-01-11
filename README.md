@@ -93,8 +93,17 @@ Open `http://localhost:3000` in your browser to view the project.
   - Schemas and API calls.
 - Undamdled Runtime Error: [next-image-unconfigured-host](https://nextjs.org/docs/messages/next-image-unconfigured-host)
 -
-- What is `revalidatePath()`
-- What is `useTransition()`
+- What is [`revalidatePath()`](https://nextjs.org/docs/app/api-reference/functions/revalidatePath)
+
+  `revalidatePath` allows you to purge [_cached data_](https://nextjs.org/docs/app/building-your-application/caching) on-demand for a specific path.
+
+- What is [`useTransition()`](https://react.dev/reference/react/useTransition)
+
+  `useTransition` is a React Hook that lets you update the state without blocking the UI.
+
+  ```javascript
+  const [isPending, startTransition] = useTransition();
+  ```
 
 ### Features
 
