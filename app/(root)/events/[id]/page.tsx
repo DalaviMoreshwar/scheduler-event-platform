@@ -88,7 +88,7 @@ const EventDetails = async ({
         </div>
       </section>
 
-      {/* Events from same organizer */}
+      {/* Events from same category */}
       <section className="wrapper my-8 flex flex-col gap-8 md:gap-12">
         <h2 className="h2-bold">Related Event</h2>
 
