@@ -105,6 +105,8 @@ Open `http://localhost:3000` in your browser to view the project.
   const [isPending, startTransition] = useTransition();
   ```
 
+- [Hydration error](https://nextjs.org/docs/messages/react-hydration-error)
+
 ### Features
 
 - TypeScript: Applying `type`, `interface`
