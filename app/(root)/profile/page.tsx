@@ -44,10 +44,10 @@ const ProfilePage = () => {
           data={[]}
           emptyTitle="No events organized yet."
           emptyStateSubtext="No worries - you can create new events."
-          collectionType="My_Tickets"
-          limit={10}
+          collectionType="Event_Organized"
+          limit={6}
           page={1}
-          urlParamName="orderPage"
+          urlParamName="eventsPage"
           totalPages={2}
         />
       </section>
