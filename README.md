@@ -107,6 +107,24 @@ Open `http://localhost:3000` in your browser to view the project.
 
 - [Hydration error](https://nextjs.org/docs/messages/react-hydration-error)
 
+  Hydration is when React converts the pre-rendered HTML from the server into a fully interactive application by attaching event handlers.
+
+  **Common Causes**
+
+  Hydration errors can occur from:
+
+  - Incorrect nesting of HTML tags
+  - `<p>` nested in another `<p>` tag
+  - `<div>` nested in a `<p>` tag
+  - `<ul>` or `<ol>` nested in a `<p>` tag
+  - Interactive Content cannot be nested (`<a>` nested in a `<a>` tag, `<button>` nested in a `<button>` tag, etc)
+  - Using checks like `typeof window !== 'undefined'` in your rendering logic
+  - Using browser-only APIs like `window` or `localStorage` in your rendering logic
+  - Browser extensions modifying the HTML
+  - Incorrectly configured CSS-in-JS libraries
+  - Ensure your code is following our official examples
+  - Incorrectly configured Edge/CDN that attempts to modify the html response, such as Cloudflare Auto Minify
+
 ### Features
 
 - TypeScript: Applying `type`, `interface`
