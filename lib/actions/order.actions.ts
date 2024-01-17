@@ -16,7 +16,7 @@ export const checkoutOrder = async (order: CheckoutOrderParams) => {
       line_items: [
         {
           price_data: {
-            currency: "inr",
+            currency: "usd",
             unit_amount: price,
             product_data: {
               name: order.eventTitle,
