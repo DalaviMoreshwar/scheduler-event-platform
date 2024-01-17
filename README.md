@@ -105,6 +105,8 @@ Open `http://localhost:3000` in your browser to view the project.
   const [isPending, startTransition] = useTransition();
   ```
 
+- Stripe and Stripe webhooks
+
 - [Hydration error](https://nextjs.org/docs/messages/react-hydration-error)
 
   Hydration is when React converts the pre-rendered HTML from the server into a fully interactive application by attaching event handlers.
