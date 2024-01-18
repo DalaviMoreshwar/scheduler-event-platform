@@ -122,7 +122,8 @@ export const getOrdersByEvent = async ({
 
     return JSON.parse(JSON.stringify(orders));
   } catch (error) {
-    handleError(error);
+    // handleError(error);
+    console.log(error);
   }
 };
 
