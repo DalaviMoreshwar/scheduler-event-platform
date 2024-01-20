@@ -99,9 +99,9 @@ const EventDetails = async ({
           emptyTitle="No Events Found"
           emptyStateSubtext="Come back later."
           collectionType="All_Events"
-          limit={10}
-          page={1}
-          totalPages={2}
+          limit={1}
+          page={searchParams.page as string}
+          totalPages={reletedEvents?.totalPages}
         />
       </section>
     </>
