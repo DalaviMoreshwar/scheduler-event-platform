@@ -1,10 +1,16 @@
 # 📆 Scheduler Event Platform
 
+// Errors
+
+1. validation for empty category
+2. validation for date ranges - past date should be selected
+3. validation for image big size
+
 I started this project to gain full-stack operations. Throughout the process, I've gained insights into various concepts and operations. Even though the project may appear straightforward, it involves a lot of valuable learning experiences.
 
 ## ⚡ About the Project
 
-This is an event application built with Next.js 19, a full-stack platform that manages events. It covers CRUD operations (Create, Read, Update, Delete), includes payment features, user authentication, form handling and validations, mongoose configurations, server actions & routes, and more.
+This is an event application built with Next.js 14, a full-stack platform that manages events. It covers CRUD operations (Create, Read, Update, Delete), includes payment features, user authentication, form handling and validations, mongoose configurations, server actions & routes, and more.
 
 ### 🧱 Tech Stack
 
