@@ -13,8 +13,8 @@ export const eventFormSchema = z.object({
   imageUrl: z.string().url(),
   startDateTime: z.date(),
   endDateTime: z.date(),
-  categoryId: z.string(),
+  categoryId: z.string().min(24, "Please select a category"),
   price: z.string(),
   isFree: z.boolean(),
-  url: z.string().url()
+  url: z.string().url(),
 });
