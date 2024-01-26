@@ -1,12 +1,5 @@
 # 📆 Scheduler Event Platform
 
-// Errors
-
-1. validation for empty category - ✅ Resolved
-2. validation for date ranges - past date should be selected
-3. validation for image big size
-4. add category for edit - ✅ Resolved
-
 I started this project to gain full-stack operations. Throughout the process, I've gained insights into various concepts and operations. Even though the project may appear straightforward, it involves a lot of valuable learning experiences.
 
 ## ⚡ About the Project
@@ -138,9 +131,14 @@ Open `http://localhost:3000` in your browser to view the project.
 
 - TypeScript: Applying `type`, `interface`
 
-## Challenges
+## Enhancements
 
-## Findings
+| Enhancements                  | Status                                                         |
+| ----------------------------- | -------------------------------------------------------------- |
+| validation for empty category | ✅ Resolved                                                    |
+| add category for edit         | ✅ Resolved                                                    |
+| validation for date ranges    | past date should be selected                                   |
+| validation for image big size | should not be able to upload large sized images (show warning) |
 
 ---
 
