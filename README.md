@@ -1,8 +1,10 @@
-# 📆 Scheduler Event Platform
-
 <p align="center" width="100%" style=" background-size: cover;">
   <img width="100%" src="./public/assets/images/ui.png" title="Next Js" alt="logo"/>
 </p>
+
+# 📆 Scheduler Event Platform
+
+## Full-stack application
 
 I started this project to gain full-stack operations. Throughout the process, I've gained insights into various concepts and operations. Even though the project may appear straightforward, it involves a lot of valuable learning experiences.
 
