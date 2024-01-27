@@ -133,25 +133,25 @@ Open `http://localhost:3000` in your browser to view the project.
   - Ensure your code is following our official examples
   - Incorrectly configured Edge/CDN that attempts to modify the html response, such as Cloudflare Auto Minify
 
-### Features
+### Needs to work on
 
 - TypeScript: Applying `type`, `interface`
 
 ## Enhancements
 
-| Enhancements                  | Status                                                         |
-| ----------------------------- | -------------------------------------------------------------- |
-| validation for empty category | ✅ Resolved                                                    |
-| add category for edit         | ✅ Resolved                                                    |
-| validation for date ranges    | past date should be selected                                   |
-| validation for image big size | should not be able to upload large sized images (show warning) |
+| Enhancements                  | Status         | Description                                                                                    |
+| ----------------------------- | -------------- | ---------------------------------------------------------------------------------------------- |
+| Empty Category Validation     | ✅ Resolved    | Ensures categories are not left empty during form submission.                                  |
+| Edit-time Category Population | ✅ Resolved    | Allows users to easily select a category when editing an existing item.                        |
+| Date Range Validation         | 🔄️ In process | Prevents selection of past dates in date pickers.                                              |
+| Image Size Validation         | 🔄️ In process | Displays a warning when trying to upload large images, potentially exceeding size limitations. |
 
 ---
 
 <div align="center">
 
-| Resource                                                                               | Start Date | Finish Date |
-| -------------------------------------------------------------------------------------- | ---------- | ----------- |
-| [NextJs 19 MERN](https://youtu.be/zgGhzuBZOQg?list=PL6QREj8te1P9gixBDSU8JLvQndTEEX3c3) | 9/12/923   | --          |
+| Resource                                                                             | Start Date | Finish Date |
+| ------------------------------------------------------------------------------------ | ---------- | ----------- |
+| [MERN Project](https://youtu.be/zgGhzuBZOQg?list=PL6QREj8te1P9gixBDSU8JLvQndTEEX3c3) | 9/12/923   | 20/01/2024  |
 
 </div>
